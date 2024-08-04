@@ -1,0 +1,92 @@
+.like-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #657786;
+    transition: color 0.3s;
+    font-size: 24px; /* Ajusta el tamaño de fuente según tus preferencias */
+    padding: 10px; /* Ajusta el padding según tus preferencias */
+    z-index: 2;
+}
+.like-button:hover {
+    color: #ff9905;
+    padding-top: 5px;
+    resize: vertical;
+}
+
+.fondito{
+    height: 70px;
+    width: 75px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.fondito:hover::before{
+    content: "";
+    position: absolute;
+    height: 80px;
+    width: 85px;
+    background-image: conic-gradient(#05be86 20deg, transparent 120deg);
+    animation: rotar 2s linear infinite
+}
+
+@keyframes rotar {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(-360deg);
+    }
+}
+
+.fondito:hover::after{
+    content: "";
+    position: absolute;
+    height: 65px;
+    width: 70px;
+    background-color: #f2f7fb;
+    border-radius: 15%;
+}
+
+.like-button.liked {
+    color: #ff9905;
+    z-index: 2;
+}
+
+.likes-count {
+    margin-left: 8px;
+    color: #657786;
+    z-index: 2;
+}
+
+
+.post-container{
+    background-color: #4c687ecc;
+    padding: 0.5em;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.foro{
+    margin: auto;
+    border-bottom: 1px solid #e6ecf0;
+    margin-bottom: 2px;
+    width: 70%;
+}
+
+.publicacion_title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #14171a;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+.publicacion_content{
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-left: 8px;
+}

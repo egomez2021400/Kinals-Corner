@@ -1,0 +1,68 @@
+.profile-card {
+    flex: 1;
+    width: 500px;
+    height: 480px;
+    background: linear-gradient(135deg, #0ba360   ,  #0ea966 );
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 10px 1px black;
+}
+
+.container2 {
+    display: flex;
+    width: 800px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.label-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.label-input-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.label-input-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.buttonUser {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg,    #050625     ,    #0b0e59   );
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  .buttonUser:hover {background-color: #3e8e41}
+  
+  .buttonUser:active {
+    background-color: #3e8e41;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transform: translateY(4px);
+  }

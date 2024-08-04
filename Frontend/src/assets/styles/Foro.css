@@ -1,0 +1,27 @@
+.form {
+    margin: auto;
+    background:  #34dcac ;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+  }
+
+.titulo{
+    font-size: 14px;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+.mensage1{
+    font-size: 14;
+}
+  
+ body {
+    align-items: center;
+ }
+
+ li {
+    list-style: none;
+ }

@@ -1,0 +1,179 @@
+/* login.css */
+
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para la sección izquierda con la imagen de fondo */
+  .left-section {
+    flex: 0.8;
+    background-color: #cdd4d2;
+    position: relative;
+    overflow: hidden;
+    padding: 20px; /* Añade un poco de espacio entre el borde y el contenido */
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient(rgba(49, 49, 49, 0.3), rgba(49, 49, 49, 0.3)), url('../image/ejemplo2.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Estilos para la sección derecha con el formulario de inicio de sesión */
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Cambia la alineación de los elementos a la izquierda */
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .logo1 {
+    margin-bottom: 30px; /* Reduce el espacio entre el logo y el título principal */
+  }
+  
+  .logo1 img {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .main-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Aumenta el espacio entre el título principal y el subtítulo */
+    text-align: left; /* Cambia la alineación del título a la izquierda */
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .sub-title {
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-align: left; /* Cambia la alineación del subtítulo a la izquierda */
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .microsoft-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Alinea el contenido al centro verticalmente */
+    width: 260px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #818181;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 10px; /* Reduce el espacio entre el botón de Microsoft y el divider */
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .microsoft-btn img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .microsoft-btn:hover {
+    background-color: #b9babb;
+    color: #ffffff;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea el contenido al inicio */
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .divider span {
+    font-size: 32px;
+    color: #050524;
+    padding: 0 15px;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex: 0.15; /* Aumenta el espacio de la línea */
+    height: 2px;
+    background-color: #000;
+  }
+  
+  .create-account-btn {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del contenido a columna */
+    align-items: center; /* Alinea el contenido al centro verticalmente */
+    width: 260px; /* Ajusta el ancho del botón para que sea igual que el de Microsoft */
+    padding: 10px 20px;
+    background-color: #F6A832;
+    color: #ffffff;
+    font-size: 14px; /* Reduce el tamaño del texto */
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 10px; /* Reduce el espacio entre el botón de "Crear Cuenta" y el divider */
+    cursor: pointer;
+  }
+  
+  .create-account-btn:hover {
+    background-color: #cc8315;
+    color: #ffffff;
+  }
+  
+  .terms-policy {
+    font-size: 14px; /* Aumenta el tamaño del texto de "Términos y Políticas" */
+    text-align: center 10; /* Cambia la alineación del texto a centrado */
+    color: #000000;
+    margin-top: 10px; /* Agrega un espacio entre el botón de "Crear Cuenta" y el texto de "Términos y Políticas" */
+    white-space: normal;
+  }
+  
+  .already-have-account {
+    font-size: 18px;
+    font-weight: bold; /* Añade negrita al texto */
+    color: #000000;
+    margin-top: 30px; /* Agrega más espacio entre el texto de "Tienes una cuenta" y el título principal */
+  }
+  
+  .login-btn {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del contenido a columna */
+    align-items: center; /* Alinea el contenido al centro verticalmente */
+    width: 260px; /* Ajusta el ancho del botón para que sea igual que el de Microsoft */
+    padding: 10px 20px;
+    background-color: #F6A832;
+    color: #ffffff;
+    font-size: 14px; /* Reduce el tamaño del texto */
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background-color: #cc8315;
+    color: #ffffff;
+  }

@@ -1,0 +1,152 @@
+body{
+  background-image: url(../../assets/image/BlueGr.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+}
+
+.container{
+  background-image: url(../../assets/image/FondoBlanco.jpg);
+  box-sizing: border-box;
+  border: 100% #00bd80 solid;
+  margin-top: 5%;
+  width: 60em;
+  height: 35em;
+  border-radius: 65px 65px 65px 65px;
+  padding: 3%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*.container-title{
+  background-color: #009147;
+  width: 20%;
+  border: 3px black solid;
+  border-radius: 5%;
+  padding: 1%;
+  margin: 3%;
+  position: relative;
+  left: -10%;
+}*/
+
+.container-side{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.input{
+  box-sizing: border-box;
+  margin-left: 3%;
+  margin-bottom: 1%;
+  padding: 1%;
+  width: 50%;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-weight: 400;
+  font-size: 110%;
+  border-radius: 5px 5px 5px 5px;
+  transition: 0.2s ease;
+  resize: horizontal;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.input:focus{
+  border-bottom: 2px solid #16a085;
+  color: #009045;
+  transition: 0.2s ease;
+}
+
+.input:hover{
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.input:active{
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.container-right{
+  text-align: end;
+}
+
+.container-center{
+  text-align: center;
+}
+
+.container-left{
+  text-align: start;
+}
+
+.btn{
+  margin-top: 2%;
+  margin-right: 23%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 8em;
+  background: #009045;
+  border: none;
+  border-radius: 2%;
+  color: #FFF;
+  transition: 0.1s ease;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.btn:hover{
+  opacity: 0.9;
+  box-shadow: 0 4px 6px #009045;
+  transition: 0.1s ease;
+}
+
+.btn:active{
+  opacity: 1;
+  box-shadow: 0 1px 2px #009045;
+  transition: 0.1s ease;
+}
+
+.image{
+  width: 10em;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  input[type=password], input[type=text] {
+    width: 80%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+  margin-top: 45%;
+  width: 150%;
+  text-align: center;
+  margin-right: 15%;
+  vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image {
+  width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+  margin-right: 8%;
+  }
+}

@@ -1,0 +1,133 @@
+.navbar {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  color: #050524;
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-weight: 900;
+  font-style: italic;
+  color: #050524;
+}
+
+.navbar-nav .nav-link {
+  color: #050524;
+  transition: color 0.3s ease;
+  margin-right: 10px; /* Agrega un margen derecho para separar los enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0ebd87;
+}
+
+.navbar-toggler {
+  border-color: #050524;
+}
+
+.navbar-toggler-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-nav .btn {
+  color: #050524;
+  border-color: #050524;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 20px;
+}
+
+.navbar-nav .btn:hover {
+  color: #0ebd87;
+  background-color: #ffffff;
+}
+
+.dropdown-menu {
+  background-color: #ffffff;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #050524;
+  transition: color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #0ebd87;
+  background-color: transparent;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu.show {
+  animation: fadeIn 0.3s ease;
+}
+
+.create-forum-btn {
+  color: #ffffff;
+  background-color: #0ebd87; /* Agrega un color de fondo al botón */
+  border-color: #0ebd87;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  margin-right: 10px;
+  border-radius: 30px; /* Hace el botón semicircular */
+  padding: 5px 15px; /* Ajusta el espaciado interno del botón */
+}
+
+.create-forum-btn:hover {
+  background-color: #0ebd87;
+  color: #ffffff;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Estilos adicionales */
+
+.navbar-nav .rounded-pill {
+  border-radius: 50px;
+  padding: 6px 20px;
+}
+
+.navbar-nav .rounded-pill:hover {
+  background-color: #ffffff;
+}
+
+.navbar {
+  animation: fadeIn 0.5s ease;
+}
+
+.login-btn,
+.register-btn {
+  color: #ffffff;
+  background-color: #0ebd87;
+  border-color: #0ebd87;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 30px;
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+  background-color: #0ebd87;
+  color: #ffffff;
+}

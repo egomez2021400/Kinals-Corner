@@ -1,0 +1,106 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-left: 70px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.8 );
+    background-color: #ccc;
+}
+
+.user-card-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.user-card-info {
+    flex: 1;
+    width: 400px; /* El ancho deseado */
+    height: 300px; /* La altura deseada */
+    border-radius: 20px;
+}
+
+.user-card-info p {
+    margin-bottom: 15px; /* Ajusta este valor según tus necesidades */
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background-color: #ccc ;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+  
+
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  form button[type="submit"] {
+    background-color:  #f9c109 ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 50px;
+  }
+
+  form button[type="button"] {
+    background-color:  #f9c109 ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+
+  .contenedor-botones {
+    display: flex;
+    margin-left: 50px; /* Espacio entre los botones */
+  }
+  
+  .create {
+    background-color:#07a560   ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+
+span{
+    font-weight: bold;
+}
+
+.buttonH{
+  background-color:  #f9c109 ;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+

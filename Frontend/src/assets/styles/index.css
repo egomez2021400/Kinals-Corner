@@ -1,0 +1,48 @@
+body {
+    background: url(https://besthqwallpapers.com/Uploads/18-3-2020/125114/white-3d-grid-4k-3d-art-white-geometric-shapes-3d-stars.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 20em;
+}
+
+.letrasL {
+    position: absolute;
+    margin-top: -3em;
+}
+
+.form-label {
+    color: #010626;
+    text-align: center;
+}
+
+.form-control {
+    background-color: #fff;
+    border-color: #009045;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #f70305;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.btn-primary {
+    background-color: #009045;
+    border-color: #009045;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #fbfbff;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

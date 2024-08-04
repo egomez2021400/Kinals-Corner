@@ -1,0 +1,16 @@
+.card-teacher{
+    background-color: #1d1d1d;
+    color: white;
+}
+.card-teacher img{
+    border: 2px solid white;
+}
+.link-outlook{
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+.link-outlook:hover{
+    /* color: rgb(216, 216, 216); */
+    text-decoration: underline
+}

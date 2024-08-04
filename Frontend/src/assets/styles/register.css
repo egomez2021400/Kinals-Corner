@@ -1,0 +1,55 @@
+
+
+.container-register{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background-color: #19bb8b ;
+}
+
+.card-register{
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 48px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-register .card-register-title{
+  font-size: 30px;
+  min-width: 350px;
+  margin-bottom: 16px;
+}
+
+.card-register img{
+  width: 80px;
+}
+
+.card-register p{
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: rgb(230, 230, 230);
+}
+
+.card-register label{
+  margin-bottom: 8px;
+}
+
+.btn-submit-register{
+  background-color: #68dab8;
+  margin-top: 24px;
+  transition: ease-in-out 0.5s;
+  border: 0px;
+  width: 100%;
+}
+.link-new-account{
+  color: white;
+  max-width: 250px;
+  display: flex;
+  margin: 10px auto 0 auto;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
